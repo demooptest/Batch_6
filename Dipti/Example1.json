@@ -1,0 +1,100 @@
+{
+  "movies": [
+    {
+      "title": "Inception",
+      "year": 2010,
+      "genre": "Action",
+      "director": [ {
+        "name": "Christopher Nolan",
+        "birth_year": 1970,
+        "nationality": "British"
+      } ],
+      "cast": [
+        {
+          "name": "Leonardo DiCaprio",
+          "role": "Dom Cobb"
+        },
+        {
+          "name": "Joseph Gordon-Levitt",
+          "role": "Arthur"
+        },
+        {
+          "name": "Ellen Page",
+          "role": "Ariadne"
+        }
+      ],
+      "crew": [
+        {
+          "role": "Screenwriter",
+          "name": "Christopher Nolan"
+        },
+        {
+          "role": "Producer",
+          "name": "Emma Thomas"
+        },
+        {
+          "role": "Composer",
+          "name": "Hans Zimmer"
+        }
+      ],
+      "reviews": [
+        {
+          "source": "IMDb",
+          "rating": 8.8
+        },
+        {
+          "source": "Rotten Tomatoes",
+          "rating": 86
+        }
+      ]
+    },
+    {
+      "title": "The Godfather",
+      "year": 1972,
+      "genre": ["Crime", "Drama"],
+      "director": {
+        "name": "Francis Ford Coppola",
+        "birth_year": 1939,
+        "nationality": "American"
+      },
+      "cast": [
+        {
+          "name": "Marlon Brando",
+          "role": "Don Vito Corleone"
+        },
+        {
+          "name": "Al Pacino",
+          "role": "Michael Corleone"
+        },
+        {
+          "name": "James Caan",
+          "role": "Sonny Corleone"
+        }
+      ],
+      "crew": [
+        {
+          "role": "Screenwriter",
+          "name": "Francis Ford Coppola"
+        },
+        {
+          "role": "Producer",
+          "name": "Albert S. Ruddy"
+        },
+        {
+          "role": "Composer",
+          "name": "Nino Rota"
+        }
+      ],
+      "reviews": [
+        {
+          "source": "IMDb",
+          "rating": 9.2
+        },
+        {
+          "source": "Rotten Tomatoes",
+          "rating": 98
+        }
+      ]
+    }
+  ]
+}

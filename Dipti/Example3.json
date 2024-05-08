@@ -1,0 +1,36 @@
+{
+  "library": "Fictional Library",
+  "books": [
+    {
+      "title": "To Kill a Mockingbird",
+      "author": {
+        "name": "Harper Lee",
+        "birth_year": 1926,
+        "nationality": "American"
+      },
+      "genre": "Novel",
+      "publication_year": 1960,
+      "isbn": "978-0-06-112008-4",
+      "language": "English"
+    },
+    {
+      "title": "1984",
+      "author": {
+        "name": "George Orwell",
+        "birth_year": 1903,
+        "death_year": 1950,
+        "nationality": "British"
+      },
+      "genre": "Dystopian Fiction",
+      "publication_year": 1949,
+      "isbn": "978-0-452-28423-4",
+      "language": "English"
+    }
+  ],
+  "publishers": [
+    {
+      "name": "Penguin Random House",
+      "location": "New York"
+    }
+  ]
+}
