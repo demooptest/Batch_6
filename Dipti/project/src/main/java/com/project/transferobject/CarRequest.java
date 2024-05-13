@@ -1,36 +1,33 @@
-package com.project.model;
+package com.project.transferobject;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import lombok.EqualsAndHashCode;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
+/**
+ * @author Dipti
+ * @date 08-05-24
+ * This is a POJO/Model for Car Entity 
+ * Encapsulation - Binding everything into a single entity
+ */
 
-@Entity
-@Table(name="Car")
 //@Getter
 //@Setter
-public class Car {
+//@ToString
+@NoArgsConstructor
+@EqualsAndHashCode
+public class CarRequest {
 	
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Integer Id;
+	private int Id;
 	
-	@Column(name = "carName")
 	private String carName;
 	
-	@Column(name = "carModel")
 	private String carModel;
 	
-	@Column(name = "color")
 	private String color;
-	
-	@Column(name = "carNumber")
+	 
 	private String carNumber;
 
 	public int getId() {
@@ -73,5 +70,5 @@ public class Car {
 		this.carNumber = carNumber;
 	}
 	
-	
+
 }
